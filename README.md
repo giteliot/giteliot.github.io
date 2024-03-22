@@ -3,7 +3,7 @@ Hi! I am Elia, in my spare time my main interest is playing around in the inters
 
 ## projects
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  <img src="assets/shankd_logo.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> <div> 
-	<a href="projects/shankd.md"><b>Shankd</b></a>
+	<a href="shankd.md"><b>Shankd</b></a>
  is a 1v1 battling game. Made in Unity and its MLAgents library. 
 <p><a href="https://github.com/giteliot/shankd">https://github.com/giteliot/shankd</a></p></div> </div>
 
