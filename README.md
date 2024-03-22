@@ -4,7 +4,7 @@ Hi! I am Elia, in my spare time my main interest is playing around in the inters
 ## projects
 [shankd](shankd.md)
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  <img src="assets/shankd_logo.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> <div> 
-	Shankd is a 1v1 battling game. Made in Unity and its MLAgents library. 
+	<a href="shankd.html">Shankd</a> is a 1v1 battling game. Made in Unity and its MLAgents library. 
 <p><a href="https://github.com/giteliot/shankd">https://github.com/giteliot/shankd</a></p></div> </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">   <div> <b>tiny adventures</b> is an attempt to use LLMs to work as a game master.
