@@ -2,6 +2,7 @@
 Hi! I am Elia, in my spare time my main interest is playing around in the interstection between gaming and ai. You can reach out to me on [LinkedIn](https://www.linkedin.com/in/elia-chinellato-041a695a/), [Twitter/X](https://twitter.com/codewithnohands) or [email](email:eliachinellato@gmail.com). Here is the stuff I have worked on lately, from most to least recent. I apologize if the quality is offensively low :D 
 
 ## projects
+Go to [shankd](shankd.md)
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  <img src="assets/shankd_logo.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> <div> 
 	<a href="shankd.md"><b>Shankd</b></a>
  is a 1v1 battling game. Made in Unity and its MLAgents library. 
