@@ -1,5 +1,5 @@
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: "code with no hands"
+title: "codewithnohands"
 description: "games, robots and ai"

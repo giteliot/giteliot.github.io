@@ -1,6 +1,6 @@
 ---
 title: Shankd
-layout: pages-themes/architect@v0.2.0
+layout: default
 filename: shankd.md
 --- 
 
