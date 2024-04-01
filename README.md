@@ -13,5 +13,5 @@ The attempt failed unfortunately, as I wasnt able to make either the both intere
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  <img src="assets/lucio_icon.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> <div> <b>lucioai</b> Can a neural net learn like a dog?  
 <p><a href="https://github.com/giteliot/lucioai">https://github.com/giteliot/lucioai</a></p></div> </div>
 
-<div style="display: flex; align-items: flex-start; margin-top: 20px;">   <div> <b>untilted_game</b> is a browser simple puzzle game; it hasw a mode where you can train the ai in the browser to beat the game. 
+<div style="display: flex; align-items: flex-start; margin-top: 20px;">   <div><a href="projects/qlbrowser.html">untilted_game</a>  is a browser simple puzzle game; it hasw a mode where you can train the ai in the browser to beat the game. 
 <a href="https://github.com/giteliot/ql-browser">https://github.com/giteliot/ql-browser</a></div><img src="assets/qlbrowser.png" alt="Image" style="width: 64px; height: auto; margin-left: 20px;"> </div>
