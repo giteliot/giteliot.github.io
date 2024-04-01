@@ -5,4 +5,4 @@ filename: shankd.md
 --- 
 
 ## Shankd
-WIP
+<p><a href="https://github.com/giteliot/shankd">https://github.com/giteliot/shankd</a></p>

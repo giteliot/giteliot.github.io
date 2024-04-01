@@ -5,6 +5,8 @@ filename: qlbrowser.md
 --- 
 
 ## Untitled
+https://github.com/giteliot/ql-browser
+<br>
 This untitled puzzle game was a first attempt to do reinforcement learning directly on the browser (no server side resources used!), using Deep Q Learning implemented with tensorflow.js, hence the name **qlbrowser**! 
 
 The agent is absolutely non necessary for the game, you can play without training the agent at all, and the game is simple enough any (most?) humans should be able to get the gist of it pretty quickly and reach perfect play in a few tries, so the agent doesn't reach __superhuman__ abilities, but I guess __human-like__.
@@ -14,15 +16,13 @@ Why did you make this then?
 Good question! The motivation behind this whole project was to pave the way for another idea, which was to make a rl-based life simulator. The fact that anything would run in the browser would make it very easy (and cheap) to distribute. 
 Alas, reality is often disappointing, and the project failed when I realized performance would be terrible, and that other people are already making better implementations of the same idea, although not on the browser (specifically [Bibites](https://www.thebibites.com/)).
 
-That being sad, the game is mildly fun in its simplicity, here is how it works.
+That being said, the game is mildly fun in its simplicity, here is how it works.
 
 <div style="display:flex;">
     <img src="../assets/qlbrowser/a_ex1.png" alt="Image 1" style="width:33.33%;">
     <img src="../assets/qlbrowser/a_ex2.png" alt="Image 2" style="width:33.33%;">
     <img src="../assets/qlbrowser/a_ex3.png" alt="Image 3" style="width:33.33%;">
 </div>
-
-
 
 
 On the left there is a possible starting screen:
