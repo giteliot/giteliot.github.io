@@ -4,7 +4,7 @@ layout: default
 filename: qlbrowser.md
 --- 
 
-## Untitled
+## untitled_game
 https://github.com/giteliot/ql-browser
 <br>
 This untitled puzzle game was a first attempt to do reinforcement learning directly on the browser (no server side resources used!), using Deep Q Learning implemented with tensorflow.js, hence the name **qlbrowser**! 
