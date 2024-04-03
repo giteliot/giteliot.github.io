@@ -7,11 +7,11 @@ filename: lucioai.md
 ## LucioAI
 https://github.com/giteliot/lucioai
 <br>
-<div style="display:flex;" style="width:70%;">
-    <img src="../assets/lucioai/jump.gif" alt="Image 1" style="width:15%; margin-left:5%; margin-right:4%;">
-    <img src="../assets/lucioai/crouch.gif" alt="Image 2" style="width:15%; margin-left:5%; margin-right:4%;">
-    <img src="../assets/lucioai/sit.gif" alt="Image 3" style="width:15%; margin-left:5%; margin-right:4%;">
-    <img src="../assets/lucioai/walk.gif" alt="Image 3" style="width:15%; margin-left:5%; margin-right:4%;">
+<div style="display:flex; text-align:center;">
+    <img src="../assets/lucioai/jump.gif" alt="Image 1" style="width:15%; margin-left:4%; margin-right:4%;">
+    <img src="../assets/lucioai/crouch.gif" alt="Image 2" style="width:15%; margin-left:4%; margin-right:4%;">
+    <img src="../assets/lucioai/sit.gif" alt="Image 3" style="width:15%; margin-left:4%; margin-right:4%;">
+    <img src="../assets/lucioai/walk.gif" alt="Image 3" style="width:15%; margin-left:4%; margin-right:4%;">
 </div>
 <br>
 <br>
