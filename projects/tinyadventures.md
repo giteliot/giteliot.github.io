@@ -25,7 +25,6 @@ I will present the general structure of the project and then a few examples, to 
 </div>
 <br>
 
-
 In my example I fixed the game to three characters, the protagonist (player) the lady (npc) and the dog (npc).
 I created 3 LLMs, all instances of GPT4, one for the game master (GM from now on) and one for each NPC (let's call them NPC1 and NPC2).
 
