@@ -21,7 +21,7 @@ I will present the general structure of the project and then a few examples, to 
 
 <br>
 <div style="text-align:center;">
-    <img src="../assets/tinyadv/tinyadv_diagram.png" alt="Image 3" style="width:70%;">
+    <img src="../assets/tinyadv/tinyadv_diagram.png" alt="Image 3" style="width:90%;">
 </div>
 <br>
 
@@ -78,12 +78,9 @@ Thank you, traveler. Show trust, share your stories, and bring a token of pure i
 **Protagonist**
 <br>
 Your tale touches my heart, spirit. I will venture into the heart of the forest and retrieve the pure token you speak of. Keep faith, for I shall return.
-
-
 <br><br>
 _Protagonist walks to Dog and starts interaction_
 <br><br>
-
 **Dog**
 <br>
 I am the guardian. I protect the secret of these woods. Your intentions, reveal them. Friend or foe?
