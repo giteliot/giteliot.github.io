@@ -64,4 +64,4 @@ I tried to use derivative observations, that are the ones that I intuitively do 
 - the bearing angle of the player to the opponent, and the one of the opponent towards me
 - again the visibility of the hand and weapon
 
-With this new configuration, even with just 500k steps, which takes a few minutes on a MacBook Air M1 with 16Gb RAM, the agent becomes nearly unbeatable. Upping to 10M steps became definitely superhuman.
+With this new configuration, even with just 500k steps, which takes a few minutes on a MacBook Air M1 with 16Gb RAM, the agent becomes already really good. Upping to 1M steps became extremely tough to beat, even for me!
