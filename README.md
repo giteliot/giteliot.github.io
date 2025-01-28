@@ -1,5 +1,5 @@
 ## intro
-Hi! I am Elia Chinellato, a Research Engineer from Italy. In my "technical spare time" I like playing around in the interstection between gaming and ai. You can reach out to me on [LinkedIn](https://www.linkedin.com/in/elia-chinellato-041a695a/), [Twitter/X](https://twitter.com/codewithnohands) or [email](email:eliachinellato@gmail.com). Here is the stuff I have worked on lately, from most to least recent. I apologize if the quality is offensively low :D 
+Hi! I am Elia, a Research Engineer from Italy. In my "technical spare time" I like playing around mostly in the interstection between gaming and ai. You can reach out to me on [LinkedIn](https://www.linkedin.com/in/elia-chinellato-041a695a/), [Twitter/X](https://twitter.com/codewithnohands) or [email](email:eliachinellato@gmail.com). Here is the stuff I have worked on lately, from most to least recent. I apologize if the quality is offensively low :D 
 
 ## projects
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  
