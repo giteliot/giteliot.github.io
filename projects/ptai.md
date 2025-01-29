@@ -14,7 +14,7 @@ Granted, this is not a particularly new idea, however most of the existing **per
 This was actually my first idea: to be able to find flaws in lifting technique by comparing it with some reference exercises. However, I decided that for it to make sense I needed simple classification instead, to which I added a repetition count. So that's where we are now. Here is a short video to showcase it. There are only a few reference exercises to choose from for classification, which are learned by passing a single repetition to the application.
 
 <div style="text-align:center;">
-  <iframe width="560" height="315" src="https://youtube.com/shorts/HKvAaPxN0ck?feature=share" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://youtube.com/shorts/LJSc7JFJytE?feature=share" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ### Algorithm
