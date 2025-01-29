@@ -20,7 +20,7 @@ This was actually my first idea: to be able to find flaws in lifting technique b
 ### Algorithm
 <br>
 <div style="text-align:center;">
-    <img src="../assets/ptai/ptai_algo.png" alt="Image 3" style="width:40%;">
+    <img src="../assets/ptai/ptai_algo.png" alt="Image 3" style="width:60%;">
 </div>
 <br>
 
