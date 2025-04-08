@@ -1,7 +1,12 @@
 ## intro
-Hi! I am Elia, a Research Engineer from Italy. In my "technical spare time" I like playing around mostly - but not excusively - in the interstection between gaming and ai. You can reach out to me on [LinkedIn](https://www.linkedin.com/in/elia-chinellato-041a695a/), [Twitter/X](https://twitter.com/codewithnohands) or [email](email:eliachinellato@gmail.com). Here is the stuff I have worked on lately, from most to least recent. I apologize if the quality is offensively low :D 
+Hi! I am Elia, a Research Engineer from Italy. In my "technical spare time" I like playing around mostly - but not excusively - in the interstection between gaming and ai. You can reach out to me on [Youtube](https://www.youtube.com/@codewithnohands), [LinkedIn](https://www.linkedin.com/in/elia-chinellato-041a695a/), [Twitter/X](https://twitter.com/codewithnohands) or [email](email:eliachinellato@gmail.com). Here is the stuff I have worked on lately, from most to least recent. I apologize if the quality is offensively low :D 
 
 ## projects
+<div style="display: flex; align-items: flex-start; margin-top: 20px;">  
+<img src="assets/werellm_logo.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
+<p><a href="projects/werewolf_llm.html"><b>WereLLM</b></a> Werewolf, the social deduction game, played by (or against) LLMs. </p>
+</div>
+
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  
 <img src="assets/ptai_logo.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
 <p><a href="projects/ptai.html"><b>Personal Trainer AI</b></a> An algorithm to detect exercises and count repetitions from a video feed of a workout. </p>
