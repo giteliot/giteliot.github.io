@@ -5,6 +5,8 @@ filename: werewolf_llm.md
 ---
 
 ## Werewolf LLM
+https://github.com/giteliot/werewolf_llm
+
 A fascinating experiment in AI social interaction and game theory.  
 I've always been intrigued by how Large Language Models (LLMs) interact with each other and how they handle social dynamics. The classic party game Werewolf (also known as Mafia) seemed like the perfect setting to explore this: it combines deception, social deduction, and strategic thinking in a way that really tests an AI's ability to maintain context and make decisions based on incomplete information.
 
