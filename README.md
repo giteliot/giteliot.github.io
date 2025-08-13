@@ -3,18 +3,18 @@ Hi! I am Elia, a Research Engineer from Italy. In my "technical spare time" I li
 
 ## projects
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  
-<img src="assets/tunegen/auto_mode.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
-<p><a href="projects/tunegen.html"><b>TuneGen</b></a> Turning LLMs into DJs! </p>
+<img src="assets/tunegen_icon.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
+<p><a href="projects/tunegen.html"><b>TuneGen</b></a> <span style="opacity:0.7;">(08/2025)</span> Turning LLMs into DJs! </p>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  
 <img src="assets/werellm_logo.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
-<p><a href="projects/werewolf_llm.html"><b>WereLLM</b></a> Werewolf, the social deduction game, played by (or against) LLMs. </p>
+<p><a href="projects/werewolf_llm.html"><b>WereLLM</b></a> <span style="opacity:0.7;">(04/2025)</span> Werewolf, the social deduction game, played by (or against) LLMs. </p>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  
 <img src="assets/ptai_logo.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
-<p><a href="projects/ptai.html"><b>Personal Trainer AI</b></a> An algorithm to detect exercises and count repetitions from a video feed of a workout. </p>
+<p><a href="projects/ptai.html"><b>Personal Trainer AI</b></a> <span style="opacity:0.7;">(02/2025)</span> An algorithm to detect exercises and count repetitions from a video feed of a workout. </p>
 </div>
 
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  
