@@ -3,6 +3,11 @@ Hi! I am Elia, a Research Engineer from Italy. In my "technical spare time" I li
 
 ## projects
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  
+<img src="assets/tunegen/auto_mode.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
+<p><a href="projects/tunegen.html"><b>TuneGen</b></a> Turning LLMs into DJs! </p>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-top: 20px;">  
 <img src="assets/werellm_logo.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
 <p><a href="projects/werewolf_llm.html"><b>WereLLM</b></a> Werewolf, the social deduction game, played by (or against) LLMs. </p>
 </div>
