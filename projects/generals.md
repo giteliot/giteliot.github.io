@@ -54,7 +54,7 @@ For opponents, the bot plays against a pool: scripted bots, itself, and its own 
 <!-- TODO: picture/video of the bot playing -->
 
 ### What worked
-- Speed. Thousands of games in parallel on a Kaggle GPU.
+- Speed. Thousands of games in parallel, even on the free Kaggle GPU.
 - The submitted bot runs in pure numpy: 7ms per turn out of 150ms, zero faults.
 - Sometimes it beat the best players on the leaderboard!
 
@@ -68,6 +68,6 @@ For opponents, the bot plays against a pool: scripted bots, itself, and its own 
 </div>
 <br>
 
-In the end I fixed a nasty training bug too, but it didn't change much. Final result: somewhere around #20 in the 1-week Sprint. Not bad, not great, very inconsistent.
+Final result: somewhere around #20 in the 1-week Sprint. With only one week, the free Kaggle GPU, and a few bugs along the way, I couldn't do better. Not bad, not great, very inconsistent.
 
 The real lesson: a 1200-turn game with one reward at the end is _hard_.

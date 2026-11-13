@@ -6,7 +6,7 @@ filename: polybot.md
 
 ## Polybot
 
-My biggest side project, maybe ever. 8 months, ~80 commits, and a lot of fake money.
+My biggest side project, maybe ever. 8 months, and a lot of fake money.
 
 ### The idea
 [Polymarket](https://polymarket.com) lets you bet on real-world events: elections, wars, deals, the Fed.
@@ -45,7 +45,18 @@ Every fix made the bot more careful. Maybe a bit too careful.
 <br>
 
 ### What worked
-The model is actually not bad! On its "direct" calls, it guessed the direction of the price right ~2 times out of 3 in the first hour.
+The model is actually not bad! I checked ~1000 of its calls (Jul-Aug 2026) against the real price history.
+
+When it said **"nothing changes"**, it was mostly right: 98% of those markets stayed within 5 points in the next hour.
+When it said **"this changes things"**, the market moved 5+ points about 2x more often, at least in the first hour and after 12 hours.
+
+<br>
+<div style="text-align:center;">
+    <img src="../assets/polybot/moves.png" alt="market moves by model verdict" style="width:75%;">
+</div>
+<br>
+
+And when it moved, the direction was right ~2 times out of 3 in the first hour.
 
 <br>
 <div style="text-align:center;">
@@ -54,11 +65,6 @@ The model is actually not bad! On its "direct" calls, it guessed the direction o
 <br>
 
 ...then the effect fades, and at 12-24 hours it is a coin flip. After fees, the 6-hour exit made about +0.2% per bet. Not exactly retirement money.
-
-Some highlights:
-- **The good**: "US-Iran deal signed" at 0.35, right after an "MOU signed" headline. It went to 0.999.
-- **The bad**: a full-size bet on "Iran leadership change" after news about Ali Khamenei's funeral. The market was about Mojtaba.
-- **The ugly**: betting against Trump suing the WSJ, four times in a row. Lost all four.
 
 ### What didn't
 The news. Free news is either fast and useless, or useful and late.
@@ -70,6 +76,11 @@ The news. Free news is either fast and useless, or useful and late.
 <br>
 
 Reuters via Google News arrived ~7 hours late (one item: 2 years late). When I traced 23 big price jumps back to their first source, none came first from Reuters. Most came straight from the source: official sites, scheduled announcements, live vote counts. The rest of the fast stuff (like X) costs money.
+
+### Best (and worst) bets
+- **The good**: "US-Iran deal signed" at 0.35, right after an "MOU signed" headline. It went to 0.999.
+- **The bad**: a full-size bet on "Iran leadership change" after news about Ali Khamenei's funeral. The market was about Mojtaba.
+- **The ugly**: betting against Trump suing the WSJ, four times in a row. Lost all four.
 
 ### The verdict
 The model doesn't diverge much from what actually happens. The problem is _when_ it finds out: by the time free news arrives, the market already knows.
