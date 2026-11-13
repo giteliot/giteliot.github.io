@@ -3,6 +3,16 @@ Hi! I am Elia, a Research Engineer from Italy. In my "technical spare time" I li
 
 ## projects
 <div style="display: flex; align-items: flex-start; margin-top: 20px;">  
+<img src="assets/polybot_icon.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
+<p><a href="projects/polybot.html"><b>Polybot</b></a> <span style="opacity:0.7;">(11/2026)</span> An LLM reads the news and bets on Polymarket. Fake money, real lessons. </p>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-top: 20px;">  
+<img src="assets/generals_icon.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
+<p><a href="projects/generals.html"><b>Generals</b></a> <span style="opacity:0.7;">(08/2026)</span> Self-play PPO vs a fog-of-war strategy game. </p>
+</div>
+
+<div style="display: flex; align-items: flex-start; margin-top: 20px;">  
 <img src="assets/tunegen_icon.png" alt="Image" style="width: 64px; height: auto; margin-right: 20px;"> 
 <p><a href="projects/tunegen.html"><b>TuneGen</b></a> <span style="opacity:0.7;">(08/2025)</span> Turning LLMs into DJs! </p>
 </div>
