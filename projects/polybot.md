@@ -86,3 +86,69 @@ Reuters via Google News arrived ~7 hours late (one item: 2 years late). When I t
 The model doesn't diverge much from what actually happens. The problem is _when_ it finds out: by the time free news arrives, the market already knows.
 
 Fast news costs money. Without it, there is no edge. Failure? Probably. Fun? Definitely.
+
+---
+
+### Technical appendix
+For the nerds. The two parts that took most of the 8 months: **finding the right market** and **asking the right question**.
+
+#### 1. Embeddings: which market is this news about?
+Every day the bot loads ~2000 Polymarket events. A cheap LLM drops the ones news can't decide ("how many times will X post this week?"). Each survivor becomes **one vector**: title + fine print + all its market questions, embedded with `all-MiniLM-L6-v2` into a FAISS index.
+
+Every headline is embedded the same way and goes down a funnel:
+
+<br>
+<div style="text-align:center;">
+    <img src="../assets/polybot/retrieval.png" alt="retrieval funnel" style="width:95%;">
+</div>
+<br>
+
+- **Top 8, not top 3.** On 100 hand-labelled news, top 3 found 67% of the right events. Top 8: 94%. Top 10+: nothing more.
+- **No distance-only cutoff.** One generic headline matched 154 events.
+- **The LLM gate** sees only headlines and market questions, in one batched call. It is lazy on purpose: "keep if unsure". It kept 31/31 correct pairs and dropped half of the noise.
+- Then only the **3 closest** events go to the expensive part.
+
+Two surprises from the eval: the tiniest model won, and the boring fine print matters more than the title.
+
+<br>
+<div style="text-align:center;">
+    <img src="../assets/polybot/embed_eval.png" alt="embedding experiments" style="width:85%;">
+</div>
+<br>
+
+(A cross-encoder reranker was ~15% better at ranking, but precision didn't change. Not worth it.)
+
+#### 2. Prompting: what does this news change?
+Two LLMs. A cheap Gemini looks at everything. If it moves a probability by 5+ points, a bigger OpenAI model reviews the call. It can fix the estimate or downgrade the evidence class.
+
+Each call gets one event, with all its markets, and a lot of context:
+
+<br>
+<div style="text-align:center;">
+    <img src="../assets/polybot/prompt.png" alt="prompt anatomy" style="width:95%;">
+</div>
+<br>
+
+- **Fine print**: the exact person, number and date the market resolves on. Step 1 exists because of the wrong Khamenei.
+- **Context**: a background brief, written once per event with Google search.
+- **News log**: what the bot already saw, and what it estimated then. If its past estimates were far from the price and the price never followed, the model must admit the market disagreed.
+- **Price trend**: 7 points of the market's own price: 2 before the news, 1 at the news, 4 after.
+
+The answer is always a JSON with a probability and an **evidence class**. This was the single best fix against "vibes" bets (like "SpaceX set to surge +25%"):
+
+<br>
+<div style="text-align:center;">
+    <img src="../assets/polybot/classes.png" alt="evidence classes" style="width:90%;">
+</div>
+<br>
+
+The price trend is what separates "already priced in" from "bet!":
+
+<br>
+<div style="text-align:center;">
+    <img src="../assets/polybot/trend.png" alt="price trend example" style="width:85%;">
+    <div style="opacity:0.7; font-size:0.9em;">a cartoon, not real data</div>
+</div>
+<br>
+
+Did it work? The "already priced in" markets moved 5+ points only 6% of the time in the next 6 hours, against 13% for "direct". The model can tell when it's late. Sadly, with free news, it's late most of the time.
