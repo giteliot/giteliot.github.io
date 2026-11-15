@@ -67,7 +67,7 @@ And when it moved, the direction was right ~2 times out of 3 in the first hour.
 ...then the effect fades, and at 12-24 hours it is a coin flip. After fees, the 6-hour exit made about +0.2% per bet. Not exactly retirement money.
 
 #### A good one: the FAA ground stop
-On Nov 13, a telecom outage grounded every flight in the US. Polymarket immediately opened markets like "will the ground stop be lifted by 9 PM ET?".
+On Nov 13, a telecom outage grounded every flight in the US. Polymarket had markets like "will the ground stop be lifted by 9 PM ET?".
 
 At 8:22 PM the headline arrives: _"FAA lifts ground stop after four hours"_. 11 seconds later the bot did the math: four hours from the start puts the lift around 7:54 PM, before 9 PM. Evidence class: `resolution`. The market was at 0.86, so it bought YES.
 
